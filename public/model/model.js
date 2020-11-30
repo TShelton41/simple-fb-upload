@@ -81,7 +81,9 @@ export function signOut() {
     .signOut()
     .then(function () {
       console.log("signed out");
-      $("#submitBtn").prop("disabled", (_, val) => !val);
+      if (!$("#submitBtn").is(":disabled")) {
+        $("#submitBtn").prop("disabled", (_, val) => !val);
+      }
     })
     .catch(function (error) {
       console.log("error ", error.message);
