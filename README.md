@@ -15,7 +15,7 @@ This is a Firebase project showing you how to upload an image to the Firebase St
 
 Now you are ready to start the project. 
 
-If you look in the NPM SCRIPTS there are a couple scripts that will be of use. the 'serve-local' is for testing locally and the 'deploy' is for deploying to Firebase. When you deploy to Firebase it will give you the URL for your site. 
+If you look in the package.json there are a couple scripts that will be of use. the 'serve-local' is for testing locally and the 'deploy' is for deploying to Firebase. When you deploy to Firebase it will give you the URL for your site. 
 
 
 
