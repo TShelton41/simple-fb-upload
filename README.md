@@ -17,5 +17,26 @@ Now you are ready to start the project.
 
 If you look in the package.json there are a couple scripts that will be of use. the 'serve-local' is for testing locally and the 'deploy' is for deploying to Firebase. When you deploy to Firebase it will give you the URL for your site. 
 
+Properties that you can access in snapshot. 
+PROPERTY	         TYPE	         WRITABLE
+bucket	          string	          NO
+generation	      string	          NO
+metageneration	  string	          NO
+fullPath	        string	          NO
+name	            string	          NO
+size	            number	          NO
+timeCreated	      string	          NO
+updated	          string	          NO
+md5Hash	          string	          YES
+on upload	          -	              NO
+on updateMetadata	  -	              NO
+cacheControl	    string	          YES
+contentDisposition string	          YES
+contentEncoding	   string	          YES
+contentLanguage	   string	          YES
+contentType	       string	          YES
+downloadURLs	     Array	          NO
+customMetadata	   Object	          YES
+
 
 
